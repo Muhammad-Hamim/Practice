@@ -1,0 +1,271 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+/* import font */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+/* home-page-section-start */
+.home-page {
+  background-image: linear-gradient(
+      30deg,
+      rgba(0, 0, 0, 0.315),
+      rgba(0, 0, 0, 0.432)
+    ),
+    url(bg-masthead.jpg);
+  max-width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  padding: 30px 0;
+}
+.brand-logo {
+  margin-right: auto;
+  font-size: 30px;
+  font-weight: 700;
+  color: lightgray;
+}
+.brand-logo:hover {
+  color: white;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.menu-item a {
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.menu-item a:hover{
+  color: tomato;
+  transition: 0.2S;
+}
+.home-page-item {
+  width: 60%;
+  margin: 250px auto;
+  height: 100%;
+  text-align: center;
+}
+.home-page-item h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+  color: lightgray;
+}
+.home-divider {
+  width: 52px;
+  height: 4px;
+  background-color: tomato;
+  max-width: 52px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+.home-page-item p {
+  font-size: 19px;
+  line-height: 28px;
+  color: rgb(173, 169, 169);
+}
+
+/* button-design */
+button {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px 36px;
+  border-radius: 160px;
+  outline: none;
+  border: none;
+  background-color: tomato;
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+/* button-design */
+
+.home-button:hover{
+  background-color: white;
+  color: tomato;
+  transition: 0.3s;
+}
+
+/* home-page-section-end */
+
+/* About-section-start */
+
+.about-section{
+  max-width: 100vw;
+  height: 480px;
+  overflow: hidden;
+  background-color: tomato;
+}
+.about-section-item{
+  text-align:center;
+  width: 45%;
+  margin: 123px auto 0;
+}
+.about-section-item h1{
+  color: white;
+  font-size: 32px;
+  line-height: 38px;
+}
+.about-divider {
+  width: 52px;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  max-width: 52px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+.about-section-item p {
+  font-size: 16px;
+  line-height: 25px;
+  color: rgb(223, 217, 217);
+}
+.about-button{
+  color: black;
+  background-color: white;
+}
+.about-button:hover{
+  color: tomato;
+  background-color: black;
+  transition: 0.3s;
+}
+
+/* About-section-end */
+
+/* services-section-start */
+.services-section{ 
+  width: 100%;
+  height: 420px;
+}
+.services-container{
+  width: 60%;
+  overflow: hidden;
+  margin: 100px auto 0;
+  text-align: center;
+}
+.services-header h1{
+  font-size: 40px;
+  font-family: merriweather sans;
+  text-transform: capitalize;
+}
+.services-divider{
+  background-color: tomato;
+  border-radius: 5px;
+}
+
+.services-content{
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  width: 100%;
+}
+.service-content{
+  margin: 0 10px;
+}
+.services-content i{
+  font-size: 40px;
+  color: tomato;
+  margin-bottom: 20px;
+}
+.services-content h1{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+.services-content p{
+  line-height: 24px;
+  color: #6c757d;
+}
+/* services-serction-end */
+
+/* portfolio-section-start */
+.portfolio-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-img img{
+  margin-bottom:-4px;
+  position: absolute;
+}
+.portfolio-hover{
+  height: 344px;
+  width: 632px;
+  background-color: tomato;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.portfolio-hover p{
+  margin-top: 150px;
+}
+.portfolio-hover h6{
+  font-size: 30px;
+  text-transform:capitalize;
+}
+.portfolio-hover:hover{
+  color: white;
+  opacity: 0.8;
+  transition: 0.4s;
+}
+.portfolio-end{
+  height: 380px;
+  width: 100%;
+  text-align: center;
+  background-color: #212529;
+  overflow: hidden;
+}
+.portfolio-end h1{
+  color: white;
+  margin-top: 140px;
+  font-size: 30px;
+}
+.portfolio-button{
+  background: white;
+  color: #212529;
+}
+.portfolio-button:hover{
+  background: tomato;
+  transition: 0.4s;
+  color: white;
+}
+/* portfolio-section-end */
+
+/* contact-section-start */
+.contact-section{
+  height: 300px;
+}
+.contact-container{
+  width: 67%;
+  margin: 0 auto;
+}
+.contact-text h1{
+  color: #212529;
+}
+
+.contact-text p{
+  color: rgb(94, 91, 91);
+}
+.contact-divider{
+  background: tomato;
+}
+
