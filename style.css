@@ -268,4 +268,44 @@ button {
 .contact-divider{
   background: tomato;
 }
+/* contact-form-style */
+.contact-form{
+  margin-top: 50px;
+  width: 588px;
+  margin: 50px auto;
+}
+.contact-input input[type="text"],
+.contact-input input[type="email"],
+.contact-input input[type="number"],
+.contact-input button,
+.contact-input textarea{
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  color: tomato;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.contact-input input[type="text"]:focus,
+.contact-input input[type="email"]:focus,
+.contact-input input[type="number"]:focus,
+.contact-input textarea:focus{
+  box-shadow: 0px 0px 5px 1px rgba(255, 99, 71, 0.856);
+  border: 1px solid tomato;
+}
+.contact-button button{
+  font-size: 22px;
+  border: none;
+  border-radius: 120px;
+  color: white;
+}
+.contact-button button:hover{
+  background-color: black;
+  color: tomato;
+  transition: 0.4s;
+}
 
