@@ -251,9 +251,7 @@ button {
 /* portfolio-section-end */
 
 /* contact-section-start */
-.contact-section{
-  height: 300px;
-}
+
 .contact-container{
   width: 67%;
   margin: 0 auto;
@@ -307,5 +305,35 @@ button {
   background-color: black;
   color: tomato;
   transition: 0.4s;
+}
+.contact-mobile{
+  text-align:center;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+.contact-mobile span{
+  font-size: 50px;
+  transform: rotate(10deg);
+  color: black;
+  font-weight: 100;
+}
+
+
+/* contact-section-end */
+
+/* footer-section-start */
+footer{
+  height: 200px;
+  background: #000;
+  text-align:center;
+  color: wheat;
+  line-height: 30px;
+  overflow: hidden;
+}
+.footer{
+  margin-top: 80px;
+}
+footer a{
+  color: tomato;
 }
 
